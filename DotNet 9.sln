@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35507.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nick Chapsas", "Nick Chapsas", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Make Api Request Fast", "Make Api Request Fast", "{3C831AB8-CB08-4F36-920B-D04979AA486A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fix DB Performance", "Fix DB Performance", "{8B1B3172-2F76-4897-8DB1-C716014A82CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "When to not use Await Async", "When to not use Await Async", "{D8EB6C8C-EE51-4166-9C1A-E2104C34E876}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Api", "Fix DB Performance\Example.Api\Example.Api.csproj", "{3C199568-0A89-A2C7-B4B2-34147940B6DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Seeder", "Fix DB Performance\Example.Seeder\Example.Seeder.csproj", "{FC603667-0244-0D83-8EC9-FE18B322AE1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example.Web", "Fix DB Performance\Example.Web\Example.Web.csproj", "{828BD24B-8E77-F0C8-875D-F0ACBD8AB615}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C199568-0A89-A2C7-B4B2-34147940B6DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C199568-0A89-A2C7-B4B2-34147940B6DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C199568-0A89-A2C7-B4B2-34147940B6DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C199568-0A89-A2C7-B4B2-34147940B6DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC603667-0244-0D83-8EC9-FE18B322AE1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC603667-0244-0D83-8EC9-FE18B322AE1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC603667-0244-0D83-8EC9-FE18B322AE1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC603667-0244-0D83-8EC9-FE18B322AE1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{828BD24B-8E77-F0C8-875D-F0ACBD8AB615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{828BD24B-8E77-F0C8-875D-F0ACBD8AB615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{828BD24B-8E77-F0C8-875D-F0ACBD8AB615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{828BD24B-8E77-F0C8-875D-F0ACBD8AB615}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C831AB8-CB08-4F36-920B-D04979AA486A} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{8B1B3172-2F76-4897-8DB1-C716014A82CD} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{D8EB6C8C-EE51-4166-9C1A-E2104C34E876} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{3C199568-0A89-A2C7-B4B2-34147940B6DD} = {8B1B3172-2F76-4897-8DB1-C716014A82CD}
+		{FC603667-0244-0D83-8EC9-FE18B322AE1D} = {8B1B3172-2F76-4897-8DB1-C716014A82CD}
+		{828BD24B-8E77-F0C8-875D-F0ACBD8AB615} = {8B1B3172-2F76-4897-8DB1-C716014A82CD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6608A4C-68CC-4D70-99BD-23A7F39D13FB}
+	EndGlobalSection
+EndGlobal
